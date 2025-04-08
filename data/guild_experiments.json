@@ -4916,7 +4916,7 @@
             }
         ],
         "overrides": {},
-        "aaMode": true,
+        "aaMode": false,
         "definition": {
             "kind": "guild",
             "id": "2024-11_member_verification_rollout",
