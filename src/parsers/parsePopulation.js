@@ -62,12 +62,10 @@ function parsePopulation(encoded_populations) {
     mergedFilters.push({ type: repeatedType, ...data });
   }
 
-
-
   return {
     buckets: buckets,
     filters: mergedFilters,
-  });
+  };
 }
 
-export { parsePopulation };
+export { parsePopulation as parsePopulations };
