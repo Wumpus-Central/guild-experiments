@@ -65,7 +65,7 @@ function parsePopulations(encoded_populations) {
      mergedFilters.push({type:repeatedType, ...data})  
    }
     
-    populations.push({
+    if (!JSON.stringify(populations).includes(JSON.stringify({buckets,filters:mergedFilters}))) populations.push({
       buckets: buckets,
       filters: mergedFilters,
     });
