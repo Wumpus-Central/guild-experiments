@@ -1,7 +1,7 @@
 import filterTypes from "../filters/filtersTypes.js";
 import { DataTypes0, DataTypes1 } from "../filters/filterDataTypes.js";
 
-function parsePopulation(encoded_populations) {
+function parsePopulation(population) {
   const buckets = {};
   const filters = [];
 
