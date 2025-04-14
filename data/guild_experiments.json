@@ -4917,23 +4917,7 @@
         ],
         "overrides": {},
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2024-11_member_verification_rollout",
-            "label": "Member verification rollout",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "enabled",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 2398539226,
