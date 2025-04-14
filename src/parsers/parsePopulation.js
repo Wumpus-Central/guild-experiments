@@ -68,4 +68,4 @@ function parsePopulation(encoded_populations) {
   };
 }
 
-export { parsePopulation as parsePopulations };
+export { parsePopulation };
