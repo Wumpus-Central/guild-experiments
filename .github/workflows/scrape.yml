@@ -1,4 +1,4 @@
-name: Scrape discord chunks
+name: Guild experiments
 
 on:
   schedule:
