@@ -42,10 +42,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 1405831955
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 1405831955,
                         "target": 10000
                     }
                 ]
@@ -88,10 +85,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 1405831955
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 1405831955,
                         "target": 10000
                     }
                 ]
@@ -176,18 +170,6 @@
                         "guild_features": [
                             "MEMBER_VERIFICATION_MANUAL_APPROVAL"
                         ]
-                    },
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "991365865532575844",
-                            "809846768074227723",
-                            "1150906756197785741",
-                            "809844301353320558",
-                            "991804253335212112",
-                            "840296607785287763",
-                            "651597514407018516"
-                        ]
                     }
                 ]
             },
@@ -255,10 +237,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 770139301
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 770139301,
                         "target": 10000
                     }
                 ]
@@ -285,10 +264,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 770139301
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 770139301,
                         "target": 10000
                     }
                 ]
@@ -544,12 +520,6 @@
                         "guild_features": [
                             "PARTNERED"
                         ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             },
@@ -565,12 +535,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "PARTNERED"
-                        ]
-                    },
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -622,10 +586,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 1055563741
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 1055563741,
                         "target": 10000
                     }
                 ]
@@ -652,10 +613,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 1055563741
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 1055563741,
                         "target": 10000
                     }
                 ]
@@ -936,17 +894,8 @@
                     },
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 848173753
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 848173753,
                         "target": 10000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             },
@@ -978,17 +927,8 @@
                     },
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 848173753
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 848173753,
                         "target": 10000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             },
@@ -1020,17 +960,8 @@
                     },
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 848173753
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 848173753,
                         "target": 10000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             }
@@ -1053,18 +984,6 @@
                         "guild_features": [
                             "INTERNAL_EMPLOYEE_ONLY"
                         ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "TEXT_IN_STAGE_ENABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "885418158788345897"
-                        ]
                     }
                 ]
             },
@@ -1083,19 +1002,7 @@
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
-                            "INTERNAL_EMPLOYEE_ONLY"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
                             "TEXT_IN_STAGE_ENABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "885418158788345897"
                         ]
                     }
                 ]
@@ -1112,12 +1019,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "INTERNAL_EMPLOYEE_ONLY"
-                        ]
-                    },
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -1164,10 +1065,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 987884927
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 987884927,
                         "target": 10000
                     }
                 ]
@@ -1194,10 +1092,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 987884927
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 987884927,
                         "target": 10000
                     }
                 ]
@@ -1278,10 +1173,7 @@
                     },
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 5000
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 5000,
                         "max_id": null
                     }
                 ]
@@ -1314,10 +1206,7 @@
                     },
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 5000
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 5000,
                         "max_id": null
                     }
                 ]
@@ -1391,10 +1280,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2507971540
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2507971540,
                         "target": 10000
                     }
                 ]
@@ -1429,10 +1315,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2507971540
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2507971540,
                         "target": 10000
                     }
                 ]
@@ -1465,12 +1348,6 @@
                         "guild_features": [
                             "PARTNERED"
                         ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             },
@@ -1486,12 +1363,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "PARTNERED"
-                        ]
-                    },
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -1821,24 +1692,7 @@
                     },
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2544556038
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "target": 10000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY_CANARY"
-                        ]
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "hash_key": 2544556038
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2544556038,
                         "target": 10000
                     }
                 ]
@@ -1871,24 +1725,7 @@
                     },
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2544556038
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "target": 10000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY_CANARY"
-                        ]
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "hash_key": 2544556038
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2544556038,
                         "target": 10000
                     }
                 ]
@@ -1921,24 +1758,7 @@
                     },
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2544556038
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "target": 10000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY_CANARY"
-                        ]
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "hash_key": 2544556038
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2544556038,
                         "target": 10000
                     }
                 ]
@@ -1971,24 +1791,7 @@
                     },
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2544556038
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "target": 10000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY_CANARY"
-                        ]
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "hash_key": 2544556038
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2544556038,
                         "target": 10000
                     }
                 ]
@@ -2064,10 +1867,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 3884904940
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3884904940,
                         "target": 10000
                     }
                 ]
@@ -2094,10 +1894,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 3884904940
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3884904940,
                         "target": 10000
                     }
                 ]
@@ -2196,10 +1993,7 @@
                 "filters": [
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 1
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 1,
                         "max_id": 50
                     }
                 ]
@@ -2356,19 +2150,97 @@
                         "guild_features": [
                             "BOT_DEVELOPER_EARLY_ACCESS"
                         ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
                     },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
                             "CREATOR_MONETIZABLE_DISABLED"
                         ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
                     },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
                             "ROLE_SUBSCRIPTIONS_ENABLED"
                         ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
                     },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -2401,174 +2273,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "BOT_DEVELOPER_EARLY_ACCESS"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "CREATOR_MONETIZABLE_DISABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "ROLE_SUBSCRIPTIONS_ENABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "CREATOR_MONETIZABLE_PROVISIONAL"
-                        ]
-                    }
-                ]
-            },
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "BOT_DEVELOPER_EARLY_ACCESS"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "CREATOR_MONETIZABLE_DISABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "ROLE_SUBSCRIPTIONS_ENABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "CREATOR_MONETIZABLE_PROVISIONAL"
-                        ]
-                    }
-                ]
-            },
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "BOT_DEVELOPER_EARLY_ACCESS"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "CREATOR_MONETIZABLE_DISABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "ROLE_SUBSCRIPTIONS_ENABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "CREATOR_MONETIZABLE_PROVISIONAL"
-                        ]
-                    }
-                ]
-            },
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "BOT_DEVELOPER_EARLY_ACCESS"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "CREATOR_MONETIZABLE_DISABLED"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "ROLE_SUBSCRIPTIONS_ENABLED"
-                        ]
-                    },
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -2689,10 +2393,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 3738976194
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3738976194,
                         "target": 10000
                     }
                 ]
@@ -2719,10 +2420,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 3738976194
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3738976194,
                         "target": 10000
                     }
                 ]
@@ -2791,7 +2489,29 @@
                         "guild_features": [
                             "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
                         ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "3": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
                     },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -2820,46 +2540,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "ROLE_SUBSCRIPTIONS_ENABLED"
-                        ]
-                    }
-                ]
-            },
-            {
-                "buckets": {
-                    "3": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
-                        ]
-                    },
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -3072,26 +2752,6 @@
                         "guild_features": [
                             "GUILD_PRODUCTS"
                         ]
-                    },
-                    {
-                        "type": "guild_member_count_range",
-                        "min_id": 1000
-                    },
-                    {
-                        "type": "guild_member_count_range",
-                        "max_id": 100000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             },
@@ -3126,28 +2786,13 @@
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
-                            "GUILD_PRODUCTS"
+                            "COMMUNITY"
                         ]
                     },
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 1000
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 1000,
                         "max_id": 100000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             },
@@ -3182,28 +2827,13 @@
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
-                            "GUILD_PRODUCTS"
+                            "COMMUNITY"
                         ]
                     },
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 1000
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 1000,
                         "max_id": 100000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             },
@@ -3238,28 +2868,13 @@
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
-                            "GUILD_PRODUCTS"
+                            "COMMUNITY"
                         ]
                     },
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 1000
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 1000,
                         "max_id": 100000
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
                     }
                 ]
             }
@@ -3352,10 +2967,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2701598838
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2701598838,
                         "target": 10000
                     }
                 ]
@@ -3394,10 +3006,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2701598838
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2701598838,
                         "target": 10000
                     }
                 ]
@@ -3424,12 +3033,6 @@
                             "1115761496710975601",
                             "869267695911194645",
                             "869772539071713340"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "INTERNAL_EMPLOYEE_ONLY"
                         ]
                     }
                 ]
@@ -3552,10 +3155,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 3143066071
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3143066071,
                         "target": 10000
                     }
                 ]
@@ -3586,10 +3186,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 3143066071
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3143066071,
                         "target": 10000
                     }
                 ]
@@ -3612,13 +3209,6 @@
                         "type": "guild_has_feature",
                         "guild_features": [
                             "INTERNAL_EMPLOYEE_ONLY"
-                        ]
-                    },
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "847184799365857331",
-                            "869267695911194645"
                         ]
                     }
                 ]
@@ -3682,10 +3272,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 4195647747
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 4195647747,
                         "target": 10000
                     }
                 ]
@@ -3712,10 +3299,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 4195647747
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 4195647747,
                         "target": 10000
                     }
                 ]
@@ -3761,10 +3345,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 3041932109
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3041932109,
                         "target": 10000
                     }
                 ]
@@ -3799,10 +3380,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 3041932109
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3041932109,
                         "target": 10000
                     }
                 ]
@@ -3827,12 +3405,6 @@
                             "847184799365857331",
                             "869772539071713340",
                             "869267695911194645"
-                        ]
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "INTERNAL_EMPLOYEE_ONLY"
                         ]
                     }
                 ]
@@ -3940,10 +3512,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2104400771
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2104400771,
                         "target": 10000
                     }
                 ]
@@ -3974,10 +3543,7 @@
                 "filters": [
                     {
                         "type": "guild_in_range_by_hash",
-                        "hash_key": 2104400771
-                    },
-                    {
-                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2104400771,
                         "target": 10000
                     }
                 ]
@@ -4007,10 +3573,26 @@
                 "filters": [
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 3
-                    },
+                        "min_id": 3,
+                        "max_id": 200
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
                     {
                         "type": "guild_member_count_range",
+                        "min_id": 3,
                         "max_id": 200
                     },
                     {
@@ -4035,38 +3617,7 @@
                 "filters": [
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 3
-                    },
-                    {
-                        "type": "guild_member_count_range",
-                        "max_id": 200
-                    },
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "INTERNAL_EMPLOYEE_ONLY"
-                        ]
-                    }
-                ]
-            },
-            {
-                "buckets": {
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_member_count_range",
-                        "min_id": 3
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 3,
                         "max_id": 200
                     },
                     {
@@ -4105,12 +3656,6 @@
                             "410351373243252736",
                             "1136423398608744588"
                         ]
-                    },
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "814669604840013874"
-                        ]
                     }
                 ]
             },
@@ -4134,13 +3679,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "410351373243252736",
-                            "1136423398608744588"
-                        ]
-                    },
                     {
                         "type": "guild_ids",
                         "guild_ids": [
@@ -4362,10 +3900,7 @@
                 "filters": [
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 1
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 1,
                         "max_id": 200
                     }
                 ]
@@ -4544,10 +4079,7 @@
                 "filters": [
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 2
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 2,
                         "max_id": 50
                     }
                 ]
@@ -4668,10 +4200,7 @@
                 "filters": [
                     {
                         "type": "guild_member_count_range",
-                        "min_id": 0
-                    },
-                    {
-                        "type": "guild_member_count_range",
+                        "min_id": 0,
                         "max_id": null
                     }
                 ]
@@ -4969,33 +4498,6 @@
                         "type": "guild_has_feature",
                         "guild_features": [
                             "SERVER_PROFILES_TEST"
-                        ]
-                    },
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "1001740690297999360",
-                            "1166812177232044032",
-                            "267054589960912898",
-                            "1343976459009790086",
-                            "674658876997500938",
-                            "1339295778048315403",
-                            "1331700684088803339",
-                            "1348732604584562698",
-                            "1001972372544438542",
-                            "816408867092561940",
-                            "808798785341095966",
-                            "1346588960964476961",
-                            "834645574266650674",
-                            "1286390027080826940",
-                            "946571334207561789",
-                            "1100836130829648064",
-                            "728392551937212487",
-                            "840296607785287763",
-                            "1199152226233483358",
-                            "1327079999001591909",
-                            "1288241159553941606",
-                            "1319410486688878713"
                         ]
                     }
                 ]
