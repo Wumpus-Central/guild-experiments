@@ -17,7 +17,7 @@ function decodeExperiment(experiment){
     decodedExperiment.id = experiment[1] ?? null
     decodedExperiment.populations = experiment[3].map(parsePopulation)
     // discord fucking has too many arrays on these that's why we flat them before running the loop:
-    decodedExperiment.overridesFormatted = parsePopulations(experiment?.[5]?.flat() || [])    
+    decodedExperiment.overridesFormatted = (experiment?.[5]?.flat() || []).map(parsePopulation)    
 
     decodedExperiment.overrides = overrides
 
