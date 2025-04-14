@@ -33,7 +33,7 @@
                     "-1": {
                         "rollout": [
                             {
-                                "start": 0,
+                                "start": 7200,
                                 "end": 10000
                             }
                         ]
@@ -46,6 +46,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -143,12 +156,6 @@
                 },
                 "filters": [
                     {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "MEMBER_VERIFICATION_MANUAL_APPROVAL"
-                        ]
-                    },
-                    {
                         "type": "guild_ids",
                         "guild_ids": [
                             "991365865532575844",
@@ -181,14 +188,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -198,6 +197,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -503,14 +515,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -520,6 +524,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -778,14 +795,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -801,6 +810,39 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -857,12 +899,6 @@
                 },
                 "filters": [
                     {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "TEXT_IN_STAGE_ENABLED"
-                        ]
-                    },
-                    {
                         "type": "guild_ids",
                         "guild_ids": [
                             "885418158788345897"
@@ -889,14 +925,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -906,6 +934,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -957,14 +998,6 @@
         "populations": [
             {
                 "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    },
                     "-1": {
                         "rollout": [
                             {
@@ -987,6 +1020,19 @@
                         "max_id": null
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -1044,14 +1090,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -1061,6 +1099,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -1161,6 +1212,26 @@
         "populations": [
             {
                 "buckets": {
+                    "4": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
                     "1": {
                         "rollout": [
                             {
@@ -1202,14 +1273,7 @@
                         ]
                     }
                 },
-                "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "INTERNAL_EMPLOYEE_ONLY"
-                        ]
-                    }
-                ]
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -1363,14 +1427,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -1386,6 +1442,58 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY_CANARY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2544556038,
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -1445,14 +1553,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -1462,6 +1562,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -1691,18 +1804,6 @@
                         "rollout": [
                             {
                                 "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
                                 "end": 10000
                             }
                         ]
@@ -1719,18 +1820,6 @@
             },
             {
                 "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    },
                     "-1": {
                         "rollout": [
                             {
@@ -1755,18 +1844,14 @@
                         "rollout": [
                             {
                                 "start": 0,
-                                "end": 5000
+                                "end": 2500
                             },
                             {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
+                                "start": 2500,
+                                "end": 3000
+                            },
                             {
-                                "start": 0,
+                                "start": 3000,
                                 "end": 10000
                             }
                         ]
@@ -1794,14 +1879,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -1812,6 +1889,19 @@
                         ]
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -1912,14 +2002,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -1929,6 +2011,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -1978,14 +2073,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -2006,14 +2093,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -2024,6 +2103,19 @@
                         ]
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -2117,6 +2209,19 @@
                         ]
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -2182,22 +2287,6 @@
                         "rollout": [
                             {
                                 "start": 0,
-                                "end": 1000
-                            },
-                            {
-                                "start": 1000,
-                                "end": 5000
-                            },
-                            {
-                                "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
                                 "end": 10000
                             }
                         ]
@@ -2222,18 +2311,43 @@
                             },
                             {
                                 "start": 1000,
+                                "end": 2500
+                            },
+                            {
+                                "start": 2500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 1000,
+                        "max_id": 100000
+                    },
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
                                 "end": 5000
                             },
                             {
                                 "start": 5000,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
                                 "end": 10000
                             }
                         ]
@@ -2245,13 +2359,21 @@
                         "guild_features": [
                             "COMMUNITY"
                         ]
-                    },
-                    {
-                        "type": "guild_member_count_range",
-                        "min_id": 1000,
-                        "max_id": 100000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -2329,14 +2451,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -2346,6 +2460,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -2385,16 +2512,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "378270734587396097",
-                            "856605399154688045",
-                            "1115761496710975601",
-                            "869267695911194645",
-                            "869772539071713340"
-                        ]
-                    },
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -2482,7 +2599,7 @@
                     "-1": {
                         "rollout": [
                             {
-                                "start": 0,
+                                "start": 5000,
                                 "end": 10000
                             }
                         ]
@@ -2495,6 +2612,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -2531,12 +2661,6 @@
                 },
                 "filters": [
                     {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "INTERNAL_EMPLOYEE_ONLY"
-                        ]
-                    },
-                    {
                         "type": "guild_ids",
                         "guild_ids": [
                             "847184799365857331",
@@ -2564,14 +2688,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -2581,6 +2697,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -2610,14 +2739,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -2627,6 +2748,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -2664,14 +2798,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_ids",
-                        "guild_ids": [
-                            "847184799365857331",
-                            "869772539071713340",
-                            "869267695911194645"
-                        ]
-                    },
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
@@ -2742,14 +2868,6 @@
                                 "end": 10000
                             }
                         ]
-                    },
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
                     }
                 },
                 "filters": [
@@ -2759,6 +2877,19 @@
                         "target": 10000
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [],
@@ -2803,30 +2934,30 @@
                 },
                 "filters": [
                     {
-                        "type": "guild_member_count_range",
-                        "min_id": 3,
-                        "max_id": 200
-                    },
-                    {
                         "type": "guild_has_feature",
                         "guild_features": [
                             "INTERNAL_EMPLOYEE_ONLY"
                         ]
                     }
                 ]
-            }
-        ],
-        "overridesFormatted": [
+            },
             {
                 "buckets": {
-                    "0": {
+                    "-1": {
                         "rollout": [
                             {
                                 "start": 0,
                                 "end": 10000
                             }
                         ]
-                    },
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overridesFormatted": [
+            {
+                "buckets": {
                     "1": {
                         "rollout": [
                             {
@@ -2849,14 +2980,6 @@
             {
                 "buckets": {
                     "0": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    },
-                    "1": {
                         "rollout": [
                             {
                                 "start": 0,
@@ -3525,14 +3648,6 @@
         "populations": [
             {
                 "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    },
                     "-1": {
                         "rollout": [
                             {
@@ -3550,6 +3665,19 @@
                         ]
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -3585,14 +3713,6 @@
         "populations": [
             {
                 "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    },
                     "-1": {
                         "rollout": [
                             {
@@ -3610,6 +3730,19 @@
                         ]
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
@@ -3645,12 +3778,6 @@
                     }
                 },
                 "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "SERVER_PROFILES_TEST"
-                        ]
-                    },
                     {
                         "type": "guild_ids",
                         "guild_ids": [
