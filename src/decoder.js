@@ -1,4 +1,4 @@
-import { parsePopulations } from "./parsers/parsePopulations.js" 
+import { parsePopulation } from "./parsers/parsePopulation.js" 
 
 
 
