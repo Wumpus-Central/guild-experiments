@@ -62,7 +62,7 @@ function parsePopulations(encoded_populations) {
        data[key] = filter[key]  
       }
      }
-     mergedFilters.push({type:repeatedType, ...data}}  
+     mergedFilters.push({type:repeatedType, ...data})  
    }
     
     populations.push({
