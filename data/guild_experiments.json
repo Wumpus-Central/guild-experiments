@@ -337,35 +337,6 @@
         }
     },
     {
-        "hash": 1412337990,
-        "revision": 0,
-        "id": null,
-        "populations": [
-            {
-                "buckets": {
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": []
-            }
-        ],
-        "overridesFormatted": [],
-        "overrides": {
-            "1": [
-                "799349358776549378",
-                "763838479293349899"
-            ]
-        },
-        "aaMode": false,
-        "definition": {}
-    },
-    {
         "hash": 3674963204,
         "revision": 2,
         "id": null,
