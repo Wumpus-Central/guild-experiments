@@ -44,12 +44,27 @@ function parsePopulations(encoded_populations) {
       } else {
         filters.push({
           type: filterTypes.default.type,
-          hash: filter[0],
-          data: filter[1],
         });
       }
     });
-
+   // merge filters with same type
+   let mergedFilters = []
+   const repeatedTypes = {}
+   for (let filter of filters) {
+     if (!repeatedTypes[filter.type]) repeatedTypes[filter.type] = []
+     repeatedTypes[filter.type].push(filter) 
+   }
+   for (let repeatedType in repeatedTypes) {
+     const data = {}
+     for (let filter of repeatedTypes[repeatedType]) {
+      for (let key in filter) {
+       if (key === "type") continue
+       data[key] = filter[key]  
+      }
+     }
+     mergedFilters.push({type:repeatedType, ...data}}  
+   }
+    
     populations.push({
       buckets: buckets,
       filters: filters,
