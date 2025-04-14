@@ -48,7 +48,7 @@ function parsePopulations(encoded_populations) {
       }
     });
    // merge filters with same type
-   let mergedFilters = []
+   const mergedFilters = []
    const repeatedTypes = {}
    for (let filter of filters) {
      if (!repeatedTypes[filter.type]) repeatedTypes[filter.type] = []
@@ -67,7 +67,7 @@ function parsePopulations(encoded_populations) {
     
     populations.push({
       buckets: buckets,
-      filters: filters,
+      filters: mergedFilters,
     });
   });
 
