@@ -3629,23 +3629,7 @@
         ],
         "overrides": {},
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2025-01_guild_settings_foundation",
-            "label": "Guild Settings Foundation Revamp",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "Guild Settings Foundation Revamp",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 172566222,
