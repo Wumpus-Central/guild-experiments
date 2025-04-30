@@ -3400,6 +3400,86 @@
         }
     },
     {
+        "hash": 3294787359,
+        "revision": 1,
+        "id": null,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 200,
+                                "end": 400
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 400,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 2,
+                        "max_id": 200
+                    }
+                ]
+            }
+        ],
+        "overridesFormatted": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_ids",
+                        "guild_ids": [
+                            "895433068389752902",
+                            "689949103198961671",
+                            "1138217295597011016",
+                            "1345154197250637914",
+                            "1199152226233483358"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {},
+        "aaMode": true,
+        "definition": {
+            "kind": "guild",
+            "id": "2024-12_guild_voice_channel_ringing",
+            "label": "Guild Voice Ringing",
+            "defaultConfig": {
+                "enabled": false
+            },
+            "commonTriggerPoint": null,
+            "treatments": [
+                {
+                    "id": 1,
+                    "label": "Allow users to ring each other in Guild Voice Channels",
+                    "config": {
+                        "enabled": true
+                    }
+                }
+            ]
+        }
+    },
+    {
         "hash": 2398539226,
         "revision": 3,
         "id": null,
