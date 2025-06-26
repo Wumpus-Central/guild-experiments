@@ -1036,6 +1036,55 @@
         }
     },
     {
+        "hash": 1446479414,
+        "revision": 1,
+        "id": null,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overridesFormatted": [],
+        "overrides": {
+            "1": [
+                "651595875897835540",
+                "1046918739599315124",
+                "971683003606654976",
+                "1070109297268248639",
+                "961074291183595530",
+                "864899668143767586"
+            ]
+        },
+        "aaMode": false,
+        "definition": {
+            "id": "2023-01_forums_non_community",
+            "label": "Forum non-community",
+            "kind": "guild",
+            "defaultConfig": {
+                "enabled": false
+            },
+            "treatments": [
+                {
+                    "id": 1,
+                    "label": "On",
+                    "config": {
+                        "enabled": true
+                    }
+                }
+            ]
+        }
+    },
+    {
         "hash": 2014775304,
         "revision": 3,
         "id": null,
