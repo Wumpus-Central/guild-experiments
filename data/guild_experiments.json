@@ -1051,6 +1051,42 @@
                         ]
                     }
                 },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 2500,
+                                "end": 3000
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 500,
+                                "end": 2500
+                            },
+                            {
+                                "start": 3000,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
                 "filters": []
             }
         ],
