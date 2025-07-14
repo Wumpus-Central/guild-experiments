@@ -3014,7 +3014,7 @@
             }
         ],
         "overrides": {},
-        "aaMode": true,
+        "aaMode": false,
         "definition": {
             "kind": "guild",
             "id": "2025-06_new_emoji_who_dis",
