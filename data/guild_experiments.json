@@ -1037,7 +1037,7 @@
     },
     {
         "hash": 1446479414,
-        "revision": 3,
+        "revision": 4,
         "id": null,
         "populations": [
             {
@@ -1065,7 +1065,7 @@
                     "1": {
                         "rollout": [
                             {
-                                "start": 2500,
+                                "start": 0,
                                 "end": 10000
                             }
                         ]
