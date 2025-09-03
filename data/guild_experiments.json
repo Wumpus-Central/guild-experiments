@@ -2930,15 +2930,31 @@
     },
     {
         "hash": 2046185378,
-        "revision": 0,
+        "revision": 1,
         "id": null,
         "populations": [
             {
                 "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            }
+                        ]
+                    },
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 200,
+                                "end": 300
+                            }
+                        ]
+                    },
                     "-1": {
                         "rollout": [
                             {
-                                "start": 0,
+                                "start": 300,
                                 "end": 10000
                             }
                         ]
@@ -2947,13 +2963,13 @@
                 "filters": [
                     {
                         "type": "guild_member_count_range",
-                        "min_id": null,
+                        "min_id": 2,
                         "max_id": 30
                     },
                     {
                         "type": "guild_id_range",
                         "min_id": null,
-                        "max_id": "1404903293666197504"
+                        "max_id": "1412587900108800000"
                     }
                 ]
             }
@@ -2961,7 +2977,7 @@
         "overridesFormatted": [
             {
                 "buckets": {
-                    "1": {
+                    "2": {
                         "rollout": [
                             {
                                 "start": 0,
