@@ -3060,14 +3060,14 @@
                         "rollout": [
                             {
                                 "start": 0,
-                                "end": 500
+                                "end": 2500
                             }
                         ]
                     },
                     "-1": {
                         "rollout": [
                             {
-                                "start": 500,
+                                "start": 2500,
                                 "end": 10000
                             }
                         ]
