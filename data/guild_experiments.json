@@ -3053,6 +3053,27 @@
                         ]
                     }
                 ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 500
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
             }
         ],
         "overridesFormatted": [
