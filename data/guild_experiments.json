@@ -2930,7 +2930,7 @@
     },
     {
         "hash": 2046185378,
-        "revision": 1,
+        "revision": 2,
         "id": null,
         "populations": [
             {
@@ -2938,23 +2938,35 @@
                     "1": {
                         "rollout": [
                             {
-                                "start": 100,
-                                "end": 200
+                                "start": 400,
+                                "end": 500
                             }
                         ]
                     },
                     "2": {
                         "rollout": [
                             {
-                                "start": 200,
-                                "end": 300
+                                "start": 500,
+                                "end": 600
                             }
                         ]
                     },
                     "-1": {
                         "rollout": [
                             {
-                                "start": 300,
+                                "start": 0,
+                                "end": 100
+                            },
+                            {
+                                "start": 100,
+                                "end": 200
+                            },
+                            {
+                                "start": 200,
+                                "end": 300
+                            },
+                            {
+                                "start": 600,
                                 "end": 10000
                             }
                         ]
