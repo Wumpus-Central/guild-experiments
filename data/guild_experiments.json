@@ -2919,13 +2919,7 @@
                         ]
                     }
                 },
-                "filters": [
-                    {
-                        "type": "guild_id_range",
-                        "min_id": null,
-                        "max_id": "1410289180633726976"
-                    }
-                ]
+                "filters": []
             }
         ],
         "overridesFormatted": [
