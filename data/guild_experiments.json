@@ -1562,49 +1562,6 @@
         }
     },
     {
-        "hash": 3738976194,
-        "revision": 0,
-        "id": "2023-03_onboarding_soft_requirement_for_partnership",
-        "populations": [
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "hash_key": 3738976194,
-                        "target": 10000
-                    }
-                ]
-            },
-            {
-                "buckets": {
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": []
-            }
-        ],
-        "overridesFormatted": [],
-        "overrides": {},
-        "aaMode": false,
-        "definition": {}
-    },
-    {
         "hash": 3194028601,
         "revision": 0,
         "id": null,
