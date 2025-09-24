@@ -3047,5 +3047,50 @@
                 }
             ]
         }
+    },
+    {
+        "hash": 2428480930,
+        "revision": 0,
+        "id": null,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overridesFormatted": [],
+        "overrides": {
+            "1": [
+                "252296452708106240",
+                "1281682955432890501"
+            ]
+        },
+        "aaMode": false,
+        "definition": {
+            "kind": "guild",
+            "id": "2025-09_project_turbo",
+            "label": "Project Turbo",
+            "defaultConfig": {
+                "enabled": false
+            },
+            "treatments": [
+                {
+                    "id": 1,
+                    "label": "Turbo enabled",
+                    "config": {
+                        "enabled": true
+                    }
+                }
+            ]
+        }
     }
 ]
