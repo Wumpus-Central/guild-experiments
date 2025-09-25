@@ -2838,7 +2838,7 @@
     },
     {
         "hash": 2046185378,
-        "revision": 2,
+        "revision": 3,
         "id": null,
         "populations": [
             {
@@ -2922,7 +2922,7 @@
             }
         ],
         "overrides": {},
-        "aaMode": true,
+        "aaMode": false,
         "definition": {
             "kind": "guild",
             "id": "2025-08_go_live_guild_notification",
