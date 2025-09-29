@@ -1036,60 +1036,6 @@
         }
     },
     {
-        "hash": 1446479414,
-        "revision": 4,
-        "id": null,
-        "populations": [
-            {
-                "buckets": {
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "COMMUNITY"
-                        ]
-                    }
-                ]
-            },
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": []
-            }
-        ],
-        "overridesFormatted": [],
-        "overrides": {
-            "1": [
-                "651595875897835540",
-                "1046918739599315124",
-                "971683003606654976",
-                "1070109297268248639",
-                "961074291183595530",
-                "864899668143767586",
-                "993957185493160057"
-            ]
-        },
-        "aaMode": false,
-        "definition": {}
-    },
-    {
         "hash": 2014775304,
         "revision": 3,
         "id": null,
