@@ -431,49 +431,6 @@
         "definition": {}
     },
     {
-        "hash": 1055563741,
-        "revision": 0,
-        "id": null,
-        "populations": [
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_in_range_by_hash",
-                        "hash_key": 1055563741,
-                        "target": 10000
-                    }
-                ]
-            },
-            {
-                "buckets": {
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": []
-            }
-        ],
-        "overridesFormatted": [],
-        "overrides": {},
-        "aaMode": false,
-        "definition": {}
-    },
-    {
         "hash": 944104242,
         "revision": 0,
         "id": null,
