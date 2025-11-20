@@ -2407,17 +2407,21 @@
     },
     {
         "hash": 2046185378,
-        "revision": 4,
+        "revision": 5,
         "id": null,
         "populations": [
             {
                 "buckets": {
-                    "-1": {
+                    "2": {
                         "rollout": [
                             {
                                 "start": 0,
                                 "end": 900
-                            },
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
                             {
                                 "start": 900,
                                 "end": 4500
@@ -2425,10 +2429,6 @@
                             {
                                 "start": 4500,
                                 "end": 9000
-                            },
-                            {
-                                "start": 9000,
-                                "end": 9100
                             },
                             {
                                 "start": 9100,
