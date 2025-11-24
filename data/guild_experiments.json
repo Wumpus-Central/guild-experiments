@@ -2609,6 +2609,7 @@
                     {
                         "type": "guild_has_feature",
                         "guild_features": [
+                            "BYPASS_SLOWMODE_PERMISSION_MIGRATION_COMPLETE",
                             "PIN_PERMISSION_MIGRATION_COMPLETE"
                         ]
                     }
