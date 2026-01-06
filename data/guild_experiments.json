@@ -300,34 +300,6 @@
         "definition": {}
     },
     {
-        "hash": 1990672009,
-        "revision": 0,
-        "id": null,
-        "populations": [
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": []
-            }
-        ],
-        "overridesFormatted": [],
-        "overrides": {
-            "1": [
-                "908114392263049277"
-            ]
-        },
-        "aaMode": false,
-        "definition": {}
-    },
-    {
         "hash": 179711638,
         "revision": 0,
         "id": null,
