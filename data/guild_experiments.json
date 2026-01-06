@@ -276,30 +276,6 @@
         "definition": {}
     },
     {
-        "hash": 3510816342,
-        "revision": 0,
-        "id": null,
-        "populations": [
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": []
-            }
-        ],
-        "overridesFormatted": [],
-        "overrides": {},
-        "aaMode": false,
-        "definition": {}
-    },
-    {
         "hash": 179711638,
         "revision": 0,
         "id": null,
@@ -1252,30 +1228,6 @@
                 "690040107322966037"
             ]
         },
-        "aaMode": false,
-        "definition": {}
-    },
-    {
-        "hash": 747043176,
-        "revision": 0,
-        "id": null,
-        "populations": [
-            {
-                "buckets": {
-                    "-1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": []
-            }
-        ],
-        "overridesFormatted": [],
-        "overrides": {},
         "aaMode": false,
         "definition": {}
     },
