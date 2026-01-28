@@ -2267,30 +2267,7 @@
         ],
         "overrides": {},
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2025-08_go_live_guild_notification",
-            "label": "Go live notification guild experiment",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "Go live notification on by default",
-                    "config": {
-                        "enabled": true
-                    }
-                },
-                {
-                    "id": 2,
-                    "label": "Go live notification includes game data if available",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 2057402826,
