@@ -2459,23 +2459,7 @@
             ]
         },
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2025-09_project_turbo",
-            "label": "Project Turbo",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "Turbo enabled",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 2497032401,
@@ -2560,6 +2544,22 @@
         ],
         "overrides": {},
         "aaMode": true,
-        "definition": {}
+        "definition": {
+            "kind": "guild",
+            "id": "2026-01_boost_progress_bar_default_on",
+            "label": "Boost Progress Bar Default On",
+            "defaultConfig": {
+                "enabled": false
+            },
+            "treatments": [
+                {
+                    "id": 1,
+                    "label": "Progress bar default-on",
+                    "config": {
+                        "enabled": true
+                    }
+                }
+            ]
+        }
     }
 ]
