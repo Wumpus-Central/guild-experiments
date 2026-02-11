@@ -2433,7 +2433,7 @@
                     "1": {
                         "rollout": [
                             {
-                                "start": 9500,
+                                "start": 9000,
                                 "end": 10000
                             }
                         ]
@@ -2441,8 +2441,8 @@
                     "-1": {
                         "rollout": [
                             {
-                                "start": 500,
-                                "end": 9500
+                                "start": 1000,
+                                "end": 9000
                             }
                         ]
                     }
@@ -2587,7 +2587,45 @@
         ],
         "overrides": {},
         "aaMode": true,
-        "definition": {}
+        "definition": {
+            "kind": "guild",
+            "id": "2026-02_standard_sidebar_popover_gaps",
+            "label": "Standardize Guild Sidebar Popover Gaps",
+            "defaultConfig": {
+                "standardPopoverGap": null
+            },
+            "commonTriggerPoint": null,
+            "treatments": [
+                {
+                    "id": 1,
+                    "label": "Standard Gap (0)",
+                    "config": {
+                        "standardPopoverGap": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Standard Gap (4)",
+                    "config": {
+                        "standardPopoverGap": 4
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Standard Gap (8)",
+                    "config": {
+                        "standardPopoverGap": 8
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Standard Gap (12)",
+                    "config": {
+                        "standardPopoverGap": 12
+                    }
+                }
+            ]
+        }
     },
     {
         "hash": 3055472482,
