@@ -2524,7 +2524,23 @@
         ],
         "overrides": {},
         "aaMode": false,
-        "definition": {}
+        "definition": {
+            "kind": "guild",
+            "id": "2026-02_game_claim_coachmark",
+            "label": "Game Claim Coachmark",
+            "defaultConfig": {
+                "enabled": false
+            },
+            "treatments": [
+                {
+                    "id": 1,
+                    "label": "Enable Game Claim Coachmark",
+                    "config": {
+                        "enabled": true
+                    }
+                }
+            ]
+        }
     },
     {
         "hash": 2453702596,
