@@ -2677,5 +2677,51 @@
         "overrides": {},
         "aaMode": true,
         "definition": {}
+    },
+    {
+        "hash": 1819903986,
+        "revision": 0,
+        "id": null,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_id_range",
+                        "min_id": null,
+                        "max_id": "1468648786476662784"
+                    }
+                ]
+            }
+        ],
+        "overridesFormatted": [],
+        "overrides": {},
+        "aaMode": true,
+        "definition": {
+            "kind": "guild",
+            "id": "2026-02_voice_user_hover_activities",
+            "label": "Voice User Activities on Hover",
+            "defaultConfig": {
+                "enableUserHoverActivities": false
+            },
+            "treatments": [
+                {
+                    "id": 1,
+                    "label": "Enable activities on user hover",
+                    "config": {
+                        "enableUserHoverActivities": true
+                    }
+                }
+            ]
+        }
     }
 ]
