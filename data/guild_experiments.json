@@ -2676,7 +2676,31 @@
         ],
         "overrides": {},
         "aaMode": true,
-        "definition": {}
+        "definition": {
+            "id": "2026-02_voice_invite_suggestion_activity",
+            "kind": "guild",
+            "label": "Voice Invite Suggestion Activity",
+            "commonTriggerPoint": null,
+            "defaultConfig": {
+                "showActivityStatus": false
+            },
+            "treatments": [
+                {
+                    "id": 0,
+                    "label": "Control",
+                    "config": {
+                        "showActivityStatus": false
+                    }
+                },
+                {
+                    "id": 1,
+                    "label": "Show Activity To Inviter",
+                    "config": {
+                        "showActivityStatus": true
+                    }
+                }
+            ]
+        }
     },
     {
         "hash": 1819903986,
