@@ -2638,10 +2638,18 @@
         "populations": [
             {
                 "buckets": {
-                    "-1": {
+                    "1": {
                         "rollout": [
                             {
                                 "start": 0,
+                                "end": 100
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 100,
                                 "end": 10000
                             }
                         ]
