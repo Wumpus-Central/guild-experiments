@@ -2670,15 +2670,23 @@
     },
     {
         "hash": 1819903986,
-        "revision": 0,
+        "revision": 1,
         "id": null,
         "populations": [
             {
                 "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 500,
+                                "end": 1000
+                            }
+                        ]
+                    },
                     "-1": {
                         "rollout": [
                             {
-                                "start": 0,
+                                "start": 1000,
                                 "end": 10000
                             }
                         ]
