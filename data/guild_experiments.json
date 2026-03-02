@@ -1832,6 +1832,17 @@
                         "allowPermanentClear": true,
                         "defaultStatusVariant": "twemojimild"
                     }
+                },
+                {
+                    "id": 5,
+                    "label": "Enable Hang Status with no default, allow clearing statuses",
+                    "config": {
+                        "enableHangStatus": true,
+                        "setDefaultStatus": false,
+                        "showEmptyChannelTopic": false,
+                        "allowPermanentClear": true,
+                        "defaultStatusVariant": "illocons"
+                    }
                 }
             ]
         }
