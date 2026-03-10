@@ -2222,15 +2222,23 @@
     },
     {
         "hash": 2534870185,
-        "revision": 1,
+        "revision": 2,
         "id": null,
         "populations": [
             {
                 "buckets": {
-                    "-1": {
+                    "1": {
                         "rollout": [
                             {
                                 "start": 0,
+                                "end": 2500
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 2500,
                                 "end": 10000
                             }
                         ]
