@@ -2183,7 +2183,7 @@
     },
     {
         "hash": 2534870185,
-        "revision": 3,
+        "revision": 4,
         "id": null,
         "populations": [
             {
@@ -2201,11 +2201,7 @@
                             {
                                 "start": 5000,
                                 "end": 7500
-                            }
-                        ]
-                    },
-                    "-1": {
-                        "rollout": [
+                            },
                             {
                                 "start": 7500,
                                 "end": 10000
