@@ -2175,6 +2175,11 @@
                 },
                 "filters": [
                     {
+                        "type": "guild_member_count_range",
+                        "min_id": 2,
+                        "max_id": 50
+                    },
+                    {
                         "type": "guild_id_range",
                         "min_id": null,
                         "max_id": "1394495740503588944"
