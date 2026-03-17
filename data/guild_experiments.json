@@ -845,23 +845,7 @@
             ]
         },
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2023-03_guild_media_channel",
-            "label": "Media Channel",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "Enables guild to create a media channel",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 808859253,
