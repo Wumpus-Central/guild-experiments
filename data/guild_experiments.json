@@ -110,16 +110,7 @@
             ]
         },
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2022-07_guild_role_subscriptions_variable_max_tiers",
-            "label": "Guild Role Subscription Max Tiers",
-            "defaultConfig": {
-                "enabled": false,
-                "maxTiers": null
-            },
-            "treatments": []
-        }
+        "definition": {}
     },
     {
         "hash": 3683063649,
