@@ -1886,7 +1886,8 @@
                             "1404495740503588944",
                             "1390077800467271760",
                             "1482142416311161015",
-                            "1402685342783373374"
+                            "1402685342783373374",
+                            "763559877263360031"
                         ]
                     }
                 ]
@@ -1898,6 +1899,7 @@
             "kind": "guild",
             "id": "2026-02_past_vc_activity_messages",
             "label": "Past VC Activity Messages",
+            "commonTriggerPoint": null,
             "defaultConfig": {
                 "enabled": false
             },
