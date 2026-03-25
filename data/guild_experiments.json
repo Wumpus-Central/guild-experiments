@@ -1753,23 +1753,7 @@
         ],
         "overrides": {},
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2025-12_guild_permission_changes",
-            "label": "Guild permission breaking changes",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "Guild permissions updated",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 1059343150,
