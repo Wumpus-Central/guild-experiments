@@ -1554,23 +1554,7 @@
             ]
         },
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2025-08_invite_role_assignment",
-            "label": "Invite Role Assignment",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "Enable Invite Role Assignment",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 2091932941,
