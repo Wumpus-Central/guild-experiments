@@ -1734,23 +1734,7 @@
         ],
         "overrides": {},
         "aaMode": true,
-        "definition": {
-            "id": "2026-01_invite_app_launched_context",
-            "kind": "guild",
-            "label": "Invite App Launched Context",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "Enable Invite App Launched Context",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 2453702596,
