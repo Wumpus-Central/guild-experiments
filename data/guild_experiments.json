@@ -1815,6 +1815,22 @@
         ],
         "overrides": {},
         "aaMode": true,
-        "definition": {}
+        "definition": {
+            "kind": "guild",
+            "id": "2026-03_file_upload_250_mb_powerup",
+            "label": "File Upload 250MB Powerup",
+            "defaultConfig": {
+                "enabled": false
+            },
+            "treatments": [
+                {
+                    "id": 1,
+                    "label": "Enable File Upload 250MB Powerup",
+                    "config": {
+                        "enabled": true
+                    }
+                }
+            ]
+        }
     }
 ]
