@@ -1221,12 +1221,12 @@
     },
     {
         "hash": 194801641,
-        "revision": 3,
+        "revision": 4,
         "id": "2025-08_voice_channel_duration",
         "populations": [
             {
                 "buckets": {
-                    "1": {
+                    "5": {
                         "rollout": [
                             {
                                 "start": 700,
@@ -1255,7 +1255,7 @@
                     {
                         "type": "guild_member_count_range",
                         "min_id": 2,
-                        "max_id": 100
+                        "max_id": 1000
                     }
                 ]
             }
