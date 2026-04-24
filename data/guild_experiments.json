@@ -1367,6 +1367,10 @@
                             {
                                 "start": 2500,
                                 "end": 3500
+                            },
+                            {
+                                "start": 6000,
+                                "end": 7500
                             }
                         ]
                     },
@@ -1383,13 +1387,17 @@
                             {
                                 "start": 3500,
                                 "end": 4500
+                            },
+                            {
+                                "start": 7500,
+                                "end": 9000
                             }
                         ]
                     },
                     "-1": {
                         "rollout": [
                             {
-                                "start": 4500,
+                                "start": 9000,
                                 "end": 10000
                             }
                         ]
@@ -1545,16 +1553,24 @@
     },
     {
         "hash": 3633668656,
-        "revision": 0,
+        "revision": 1,
         "id": null,
         "populations": [
             {
                 "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 9500,
+                                "end": 10000
+                            }
+                        ]
+                    },
                     "-1": {
                         "rollout": [
                             {
                                 "start": 0,
-                                "end": 10000
+                                "end": 9000
                             }
                         ]
                     }
