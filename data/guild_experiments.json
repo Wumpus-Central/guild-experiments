@@ -354,23 +354,7 @@
             ]
         },
         "aaMode": false,
-        "definition": {
-            "kind": "guild",
-            "id": "2022-12_mention_raid_limit",
-            "label": "Automod Mention Raid Limit",
-            "defaultConfig": {
-                "enabled": false
-            },
-            "treatments": [
-                {
-                    "id": 1,
-                    "label": "Automod Mention Raid Limit",
-                    "config": {
-                        "enabled": true
-                    }
-                }
-            ]
-        }
+        "definition": {}
     },
     {
         "hash": 1727857487,
