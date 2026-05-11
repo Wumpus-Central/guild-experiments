@@ -838,67 +838,6 @@
         "definition": {}
     },
     {
-        "hash": 2428480930,
-        "revision": 0,
-        "id": null,
-        "populations": [
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "BYPASS_SLOWMODE_PERMISSION_MIGRATION_COMPLETE",
-                            "PIN_PERMISSION_MIGRATION_COMPLETE"
-                        ]
-                    }
-                ]
-            }
-        ],
-        "overridesFormatted": [
-            {
-                "buckets": {
-                    "1": {
-                        "rollout": [
-                            {
-                                "start": 0,
-                                "end": 10000
-                            }
-                        ]
-                    }
-                },
-                "filters": [
-                    {
-                        "type": "guild_has_feature",
-                        "guild_features": [
-                            "INTERNAL_EMPLOYEE_ONLY"
-                        ]
-                    }
-                ]
-            }
-        ],
-        "overrides": {
-            "1": [
-                "252296452708106240",
-                "1281682955432890501",
-                "923763229270872075",
-                "613425648685547541",
-                "222078108977594368"
-            ]
-        },
-        "aaMode": false,
-        "definition": {}
-    },
-    {
         "hash": 3868861083,
         "revision": 0,
         "id": null,
