@@ -636,14 +636,24 @@
             "id": "2026-06_guild_rooms",
             "label": "Guild Rooms",
             "defaultConfig": {
-                "enabled": false
+                "enabled": false,
+                "experimental": false
             },
             "treatments": [
                 {
                     "id": 1,
                     "label": "Enable Guild Rooms in this guild",
                     "config": {
-                        "enabled": true
+                        "enabled": true,
+                        "experimental": false
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Enable Guild Rooms in this guild",
+                    "config": {
+                        "enabled": true,
+                        "experimental": true
                     }
                 }
             ]
